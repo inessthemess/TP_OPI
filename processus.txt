@@ -58,3 +58,11 @@ Nous déduisons que C-z envoie un signal de suspension SIGTSTP au processus qui 
 
 
 2.
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> cf2829e23883f7002c90ef8cfb95aa3a3f905677
