@@ -1,10 +1,10 @@
-# Liste des fichiers source
 SRCS = bonjour.c bonnenuit.c bonsoir.c 
-
-# Generer les noms des fichiers objets
+CC=gcc
+CFLAGS= -W -Wall -pedantic
+#Question 2 : generer les fichiers objets
 OBJS = $(SRCS:.c=.o)
 
-# Nom de l'archive
+#Nom de l'archive
 LIBNAME = libsalutations.a
 
 all: $(LIBNAME) 
