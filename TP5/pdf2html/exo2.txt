@@ -1,0 +1,8 @@
+OPI-TP5 Makefile
+
+
+QUESTION1
+
+CC correspond à gcc
+CFLAGS correspond à -O3 -Wall -funroll-loops
+LDLIBS correspond à -lpng
