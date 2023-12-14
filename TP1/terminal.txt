@@ -1,0 +1,18 @@
+Exercice 3 : Ligne de commande du bash
+
+1. Alt+b pour aller en arrière d'un seul mot
+   Alt+f pour aller en avant d'un seul mot
+   
+   
+5. les flèches verticales permettent de naviguer dans l'historique de commandes
+
+
+6. la commande history donne l'historique de toutes les commandes effectuées
+
+
+Exercice 4 : More or less
+
+
+Pour lire le fichier nous utilisons la commande suivante :
+
+less delaterrealalune.txt

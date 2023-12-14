@@ -1,0 +1,26 @@
+Exercice 1 : RTFM
+
+1. La plupart des programmes fournissent une page de manuel les documentant, lisible avec la commande man.
+   man s'utilise comme ceci : 
+   
+man nom-de-la-page
+
+   Pour lire le manuel de ma commande man, on fera :
+
+man man
+
+
+2. man -k KEY_WORD permet de trouver l'ensemble des pages qui contiennent un mot donné.
+
+
+
+3. Pour demander la page manuel de signal qui se trouve dans la section 7, on fait :
+m
+an -s 7 signal
+
+
+4.
+
+
+
+

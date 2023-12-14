@@ -1,0 +1,77 @@
+Exercice 2 : Arborescence et manipulation de fichiers
+
+- Pour créer les répertoires Info et LeReste nous utilisons les commandes suivantes :
+
+mkdir Info
+mkdir LeReste
+
+- Pour aller dans le répertoire Info :
+
+cd Info 
+ 
+ 
+- Pour créer les répertoires OPI/TP1, OPI/TP2, OPI/PROJET :
+
+mkdir OPI
+cd OPI
+mkdir TP1
+mkdir TP2
+mkdir Projet
+
+
+- Pour revenir à la racine du compte :
+
+cd /
+
+
+- Pour créer les répertoires Info/OPI/TP3 et Info/OPI/TP4 :
+
+cd Info/OPI
+mkdir TP3
+mkdir TP4
+
+
+- Pour créer Projet/Info et Temp :
+
+cd Projet
+mdir Info
+cd /
+mkdir Temp
+
+- Pour lister le contenu du répertoire courant on utilise la commande ls
+
+- Pour lister seulement les répertoires de TP de Info/OPI :
+
+ls TP?
+
+
+- Pour Deplacer le dessin nous faisons :
+
+mv dessin.odg OPI/TP1
+
+
+- Pour renommer le fichier de dessin :
+
+mv dessin.odg dessin_arbo.odg
+
+
+Les fichiers source de la commande "cp"  ne peuvent pas être des répertoires Les fichiers source de la commande "mv" peuvent être de n'importe quel type
+
+- Pour effacer le répertoire temp :
+
+rmdir Temp
+
+- Pour renommer Info en Informatique :
+
+mv Info Informatique
+
+
+La commande touch de Linux est principalement utilisée pour créer des fichiers vides (si un fichier n'existe pas), et modifier le timestamp (horodatage) de fichiers ou de dossiers existants.
+
+- Pour créer un fichier dont la date de dernière modification est le 01/01/2020 à 0h00 :
+
+
+touch fichier.txt
+touch -t 202001010000 fichier.txt
+
+

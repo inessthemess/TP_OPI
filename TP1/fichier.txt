@@ -1,0 +1,47 @@
+Exercice 5 : Lecture de fichiers
+
+
+1. cat essai1 affiche le contenu du fichier essai1
+
+2. cat -n essai1 affiche le contenu du fichier essai1 en numérotant toute les lignes
+
+3. head essai1 affiche les 10 premières lignes du fichier
+
+4. head -n 2 essai1 affiche les 2 premières lignes du fichier
+
+5. head -v essai1 essai2 essai3 affiche le contenu des 3 fichiers essai1, essai2 et essai3
+
+6. tail essai1 affiche les 10 dernières lignes du fichier
+
+7. tail -n 3 essai1 affiche les 3 dernières lignes du fichier
+
+
+
+Exercice 6 : écriture de fichiers avec cat
+
+
+(*fichiers tmp1.txt et tmp.txt dans le répertoire TP2*)
+
+Exercice 7 :
+
+1. Pour créer l'alias :
+
+nano ~/.bashrc
+
+alias grepc="grep --color"
+
+source ~/.bashrc
+
+
+3. Il faut executer la commande suivante :
+
+grepc "75003" tournage.cvs
+
+4. Il faut executer la commande suivante :
+
+grepc -n -v "France" tournage.csv
+
+5. il y a 8594 films tournés dans une impasse
+
+
+
