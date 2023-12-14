@@ -1,0 +1,94 @@
+TP4
+
+POLYTECH SORBONNE , FISE , OPI
+auteur :     Inessa KECHEK
+date :    30/11/2023
+
+
+EXERCICE 1 : Travailler seule avec GIT
+
+2. Le répertoire .git a été créé
+
+
+4. Nous n'avons pas fait de commit encore. Le fichier git.txt n'est pas suivi par Git.
+
+
+5. Maintenant que le fichier git.txt est suivi par Git, il y a eu des changements à la zone de préparation et ces changements sont prets à
+etre inclus dans le prochain commit.
+
+
+7. Le status du répertoire est :
+
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Il y a des modifications dans le répertoire de travail qui n'ont pas encore été ajoutées à la zone de préparation 
+en vue d'un prochain commit. 
+
+
+8. Cette commande renvoie la partie du fichier qu'on a commité, le message du commit "Un super message" ainsi que toutes les modifications
+qu'on a apporté au fichier (par exemple effacer des lignes) avec chaque commmit. Il renvoie aussi des informationssur l'auteur 
+du fichier et la date.
+
+9. git diff renvoie les nouvelles modifications qu'on a apporté au fichier depuis le dernier add/commit.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+EXERCICE 2 : Travailler à plusieurs 
+(le fichier "inessthemess.txt" de cet exercice est sur le répertoire https://github.com/drlichuan/TP4_OPI.git de Monsieur Li Chuan, mon surveillant pour ce TP)
+
+1. Le répertoire TP4_OPI a été créé
+
+6. Lors du push nous obtenons le message d'erreur suivant :
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/drlichuan/TP4_OPI.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Il faut d'abord faire pull pour après pouvoir faire push
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+EXERCICE 3 : Savez-vous répondre à toutes les questions
+
+1. Le caractère & permet de lancer un programme en arrière plan.
+
+2. ~/
+
+3. cd et cd~
+
+4. Nous obtenons :
+/HOME:
+readme.txt
+/HOME/Documents:
+TP
+/HOME/Bureau:
+/HOME/Images:
+IMG216.jpg IMG317.jpg
+
+
+5. cp ~/HOME/Documents/TP/TP1/ex2.c ~/HOME/Images/IMG216.jpg ~/HOME/Documents/TP/TP2
+
+6.Pour lancer le programme, de n'importe ou sans avoir besoin de préfixe il faut ajouter le chemin du répertoire qui contient a.out dans la variable PATH.
+
+7.Cette commande affiche le nombre de lignes de texte générées par echo. Dans ce cas echo ne génère que une seule ligne donc la commande renvoie 1
+
+8.Pour ne pas afficher les messages d'erreurs nous pouvons faire : <commande> 2>/dev/nulle
+
+9.On cherche à savoir le nombre de processus en cours d'exécution sur le système qui correspondent au nom evince.
+ps -ef donne une liste de tous les processus en cours d'exécution sur le système
+| redirige la sortie de "ps -ef" vers l'entrée de la commande suivante
+grep -c evince : grep filtre les lignes qui contiennent le mot "evince" et -c compte le nombre de lignes
+
+
+10.chmod g+r,g+w file1
+
+11. En sortie de cette commande nous aurons les lignes du fichier cvs pour les personnes non-inscrites ("Non")
